@@ -1,0 +1,111 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: hsl(240, 38%, 20%);
+  background-image: url("images/pattern-curve.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.row-height{
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.testimonial-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 120%;
+  margin-top: 120px;
+}
+
+.img-quote {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  margin-top: 80px;
+}
+
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.testimonial-job {
+  display: inline-block;
+  font-weight: 500;
+  color: hsl(240, 18%, 77%);
+  margin-left: 8px;
+}
+
+.testimonial-image {
+  max-width: 650px;
+  height: auto;
+  border-radius: 8px;
+  position: relative;
+}
+
+.bg-illustration{
+  height: auto;
+  position: absolute;
+  max-height: 150%;
+  z-index: -1;
+}
+
+.right-column{
+ position: relative;
+ top: 0;
+ left: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.fake-slider{
+  background-color: #fff;
+  border-radius: 5000px;
+  box-shadow: 0 4px 8px hsl(240, 18%, 77%);
+  width: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+  padding: 0 20px;
+  z-index: 3;
+}
+
+.arrow{
+  background-color: #fff;
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  .testimonial-text{
+    width: auto;
+  }
+
+  .testimonial-image {
+    max-width: 100%;
+  }
+
+  .bg-illustration {
+    height: auto;
+    position: absolute;
+    height: 110%;
+    z-index: -1;
+    margin-top: 80px;
+}
+
+}

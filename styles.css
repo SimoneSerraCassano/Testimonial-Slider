@@ -49,7 +49,7 @@ body {
 }
 
 .testimonial-image {
-  max-width: 650px;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   position: relative;
@@ -59,7 +59,7 @@ body {
 .bg-illustration{
   height: auto;
   position: absolute;
-  max-height: 150%;
+  max-height: 120%;
   z-index: -1;
 }
 
@@ -104,7 +104,7 @@ body {
   .bg-illustration {
     height: auto;
     position: absolute;
-    height: 110%;
+    height: 100%;
     z-index: -1;
     margin-top: 80px;
 }
